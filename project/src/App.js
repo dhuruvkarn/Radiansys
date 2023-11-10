@@ -6,8 +6,17 @@ import Game from './components/pages/Game/Game';
 function App() {
   return (
     <div className="App">
-      <FormValidation />
-      <Game />
+      <div>
+        <div style={{ marginBottom: "2rem" }}>Form Validation</div>
+        <FormValidation />
+      </div>
+
+      <hr />
+      <div>
+        <div style={{ marginBottom: "2rem" }}>Tile Game</div>
+        <Game />
+      </div>
+
     </div>
   );
 }
