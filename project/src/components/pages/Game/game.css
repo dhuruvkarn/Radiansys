@@ -1,0 +1,12 @@
+.tile {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.blue {
+    background-color: blue;
+}
