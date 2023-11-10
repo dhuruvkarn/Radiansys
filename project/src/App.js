@@ -1,10 +1,13 @@
 import './App.css';
-import AllRoutes from './components/Routes/AllRoutes';
+import FormValidation from './components/pages/FormValidation';
+import Game from './components/pages/Game/Game';
+// import AllRoutes from './components/Routes/AllRoutes';
 
 function App() {
   return (
     <div className="App">
-      <AllRoutes />
+      <FormValidation />
+      <Game />
     </div>
   );
 }
